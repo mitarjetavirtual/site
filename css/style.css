@@ -71,7 +71,8 @@ img {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 450px)
+                    and (max-width: 600px) {
     .navbar-brand {
         float: right !important;
     }
@@ -81,11 +82,36 @@ img {
     }
 
     .info {
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
+    .carousel-caption {
+        margin-bottom: 450px !important;
+       
     
+    }
 }
+@media only screen and (max-width: 400px){
+    .navbar-brand {
+        float: right !important;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .info {
+        font-size: 15px;
+        text-align: center;
+    }
+    .carousel-caption {
+        margin-bottom: 175px !important;
+       
+    
+    }
+}
+
+
 
 
 

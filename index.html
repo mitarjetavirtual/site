@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" class="w-100 h-100" sizes="16x16" href="images/favicon2.png">
+  <link rel="icon" type="image/png" class="w-100 h-100" sizes="16x16" href="images/favicom.png">
   <link
     href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
     rel="stylesheet">
@@ -24,7 +24,7 @@
       <a class="navbar-brand" href="#">
         <img class="logo" src="images/brand2.png" alt="">
       </a>
-      <button class="navbar-toggler " type="button" data-toggle="dropdown" data-target="#navbarResponsive"
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -52,7 +52,7 @@
   <!--  END-NAV -->
 
 
-  <header >
+  <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -111,31 +111,84 @@
   <section>
     <div class="container-fluid" id="informacion">
       <div class="row d-flex">
-        <div class="col-12 col-lg-8 mobile-info ">
+        <div class=" col-lg-3 d-none d-lg-block d-xl-block     mobile-info ">
+
+        </div>
+        <div class="col-12 col-lg-6 mobile-info ">
           <h3 class="title text-center">¿A que nos dedicamos?</h3>
           <p class="text-justify section1-text"> En <span class="bold"> MI TARJETA VIRTUAL </span> nos encargamos de
-            crear invitaciones digitales acordes al evento que te encuentres organizando, ya sea un casamiento, una fiesta
+            crear una invitación digital para el evento que te encuentres organizando, ya sea un casamiento, una fiesta
             de 15 años, un cumpleaños, un bautismo y mas! </p>
-            <p class="text-justify section1-text"> Sabemos que tu evento tiene que ser perfecto y por eso en nuestras invitaciones, tus invitados van a encontrar todo lo necesario para acompañarte en este gran momento. </p>
-            <p class="text-justify section1-text"> Somos una empresa joven dedicada a generar soluciones digitales para tu
+          <p class="text-justify section1-text"> Sabemos que tu evento tiene que ser perfecto y por eso en nuestras
+            invitaciones, tus invitados van a encontrar todo lo necesario para acompañarte en este gran momento. </p>
+          <p class="text-justify section1-text"> Somos una empresa joven dedicada a generar soluciones digitales para tu
             evento, dejando atrás las invitaciones tradicionales o complementandolas con tarjetas de invitación
             virtuales al mejor precio del mercado. </p>
-     
-            <div class="text-center mt-5">
+
+          <div class="text-center mt-5">
             <a id="" class="btn-section" href="">VER INVITACIONES</a>
           </div>
         </div>
-        <div class=" col-lg-4 d-none d-lg-block d-xl-block     mobile-info ">
-          <img class="img-fluid h-100" src="images/mobile-info.jpg" width="100%" alt="">
-       
+        <div class=" col-lg-3 d-none d-lg-block d-xl-block     mobile-info ">
+
         </div>
       </div>
-     
-      
+
+
     </div>
     <hr>
+  </section>
 
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">Nuestras invitaciones</h3>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-4 col-lg-4 mt-2 mb-1">
+          <div class="card shadow-sm" style="width: 18rem;">
+            <img src="images/mobile-info.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="text-center">
+                <a href="#" class="btn btn-section">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 mt-2 mb-1">
+          <div class="card shadow-sm" style="width: 18rem;">
+            <img src="images/mobile-info.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="text-center">
+                <a href="#" class="btn btn-section">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 mt-2 mb-1">
+          <div class="card shadow-sm" style="width: 18rem;">
+            <img src="images/mobile-info.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="text-center">
+                <a href="#" class="btn btn-section">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </div>
+    </div>
 
   </section>
 
@@ -149,16 +202,14 @@
 
 
 
-
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
   <script src="js/main.js"></script>
 </body>
